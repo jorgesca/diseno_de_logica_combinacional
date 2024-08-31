@@ -1,0 +1,113 @@
+---
+title: "Proyecto 2. Diseño de lógica combinacional"
+subtitle: "Electrónica II para Ing. Electrónica"
+lang: es
+format: pdf
+---
+
+## Objetivos
+
+Los objetivos de este proyecto son los siguientes:
+
+1. Investigar en la bibliografía lo siguiente:
+    1. Formas canónicas de las funciones lógicas: suma de productos y productos de suma.
+    2. Axiomas del álgebra de Boole.
+    3. Teoremas del álgebra de Boole.
+    4. Simplificación y manipulación algebraica de funciones lógicas.
+    5. Mapas de Karnaugh.
+    6. Multiplexores y decodificadores.
+2. Desarrolle lo siguiente:
+    1. Encuentre las formas canónicas de las funciones lógicas descriptas en las tablas a) a e) de la @fig-funciones-logicas.
+    2. Minimizar las ecuaciones lógicas encontradas en el punto 2.1.
+    3. Dibuje circuitos combinacionales que implementen las funciones lógicas de las tablas a) a e) de la @fig-funciones-logicas. Intente minimizar el uso de recursos para las implementaciones.
+    4. Repita el punto 2.3, pero esta vez usando solamente compuertas NAND.
+    5. Repita el punto 2.3, pero esta vez usando solamente compuertas NOR.
+    6. A partir de la @fig-decoder-3x8 que representa la función de un decodificador de código binario natural a código *1 de N* (también llamado decodificador de 3 a 8), dibuje un circuito lo implemente  de manera eficiente.
+    7. A partir de la tabla de la @fig-mux-4x1 que representa la función de un multiplexor de 4 a 1, dibuje un circuito que lo implemente de manera eficiente.
+
+![Funciones lógicas](images/harris_fig_2-81.png){#fig-funciones-logicas}
+
+::: {#fig-decoder-3x8 layout-ncol=2}
+
+![](images/decoder-3x8.png){width="180"}
+
+| Binario | 1 de N   | 
+| :---:   | :---:    |
+| 000     | 00000001 |
+| 001     | 00000010 |
+| 010     | 00000100 |
+| 011     | 00001000 |
+| 100     | 00010000 |
+| 101     | 00100000 |
+| 110     | 01000000 |
+| 111     | 10000000 |
+
+Decodificador de 3 a 8
+
+:::
+
+::: {#fig-mux-4x1 layout-ncol=2}
+
+![](images/mux-4x1.png){width="120"}
+
+| $S_1 S_0$ | Y     | 
+| :---:     | :---: |
+| 00        | $D_0$ |
+| 01        | $D_1$ |
+| 10        | $D_2$ |
+| 11        | $D_3$ |
+
+Multiplexor de 4 a 1
+
+:::
+
+
+## Entregables
+
+Deberás producir un informe conteniendo los resultados de la investigación bibliográfica y las experiencias realizadas. A continuación indicamos la estructura del informe, el contenido de cada sección y los criterios de evaluación que deben aplicarse para su calificación.
+
+- *Título*. El título (ya dado) será *Laboratorio de familias lógicas*
+- *Autor*. Esta sección debe contener tus datos personales
+- *Resumen*. (1 punto)
+  - Describir brevemente el contenido del informe
+  - Criterios de evaluación:
+    - Explica de forma clara de que trata el informe. Esto es, sin leer el resto del informe y solo en base al resumen un lector puede comprender que se investigó y que tareas se llevaron a cabo.
+- *Introducción*. (2 puntos)
+  - Exponer los resultados de la investigación del objetivo 1.
+  - Plantear los objetivos de las tareas realizadas dentro del objetivo 2.
+  - Criterios de evaluación:
+    - Expone los temas en forma clara
+    - Incluye figuras y tablas necesarias
+    - Al exponer los temas cita las fuentes consultadas según normas APA, puedes consultar (Sanchez, 2019).
+- *Materiales y Métodos.* (2,5 puntos)
+  - Presentar las diferentes técnicas utilizadas para realizar los desarrollos del objetivo 2.
+  - Criterios:
+    - Cita la bibliografía empleada correctamente según normas APA (Sanchez, 2019)
+    - Explica las técnicas utilizadas. Incluye diagramas esquemáticos y explicaciones.
+    - Toda figura tiene un epígrafe y número de figura
+    - Toda figura es citada en el texto indicando su número (ej. "La Figura 1...")
+- *Resultados y discusión.* (2,5 puntos)
+  - Iniciar con un resumen explicando las características de las técnicas aplicadas en el objetivo 2.
+  - Comentar sobre ventajas y desventajas de cada una. Hacer énfasis en la escalabilidad de estas técnicas.
+  - Explicar en que aspectos del proceso de diseño e implementación intervienen.
+  - Presentar los resultados obtenidos en el objetivo 2.
+  - Criterios:
+    - De leer el resumen inicial es posible conocer que tipo de resultados se obtuvo y si dichos resultados fueron conforme a lo esperado.
+    - Las tablas tienen título y número. Las figuras epígrafe y número
+    - Toda tabla y figura es citada en el texto indicando su número (ej. "En la Tabla 1 se presentan...")
+    - Se discuten los resultados obtenidos indicando limitaciones del proceso de diseño manual.
+- *Conclusiones* (1 punto)
+  - Explica lo aprendido durante la realización de este proyecto
+  - Criterios:
+    - Indica los conceptos explorados durante la realización del proyecto.
+- *Referencias* (1 punto)
+  - Lista las referencias utilizadas, utiliza formato APA (Sánchez, 2020). No es necesario respetar exactamente las medidas indicadas en la norma, solo el estilo general y el contenido requerido.
+  - Criterios:
+    - Todas las referencias corresponden a citas en el texto
+    - Respeta el formato APA (pudiendo desviarse según lo indicado)
+
+## Referencias
+
+- Sánchez, C. (08 de febrero de 2019). Cita de parafraseo. Normas APA (7ma edición). [https://normas-apa.org/citas/cita-de-parafraseo/]
+- Sánchez, C. (24 de enero de 2020). Referencias APA. Normas APA (7ma edición). [https://normas-apa.org/referencias/]
+
