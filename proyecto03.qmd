@@ -1,5 +1,5 @@
 ---
-title: "Proyecto 2. Diseño de lógica combinacional"
+title: "Proyecto 3. Diseño de lógica combinacional"
 subtitle: "Electrónica II para Ing. Electrónica"
 lang: es
 format: pdf
@@ -64,9 +64,9 @@ Multiplexor de 4 a 1
 
 ## Entregables
 
-Deberás producir un informe conteniendo los resultados de la investigación bibliográfica y las experiencias realizadas. A continuación indicamos la estructura del informe, el contenido de cada sección y los criterios de evaluación que deben aplicarse para su calificación.
+Deberás producir un informe conteniendo los resultados de la investigación bibliográfica y los desarrollos realizados. A continuación indicamos la estructura del informe, el contenido de cada sección y los criterios de evaluación que deben aplicarse para su calificación.
 
-- *Título*. El título (ya dado) será *Laboratorio de familias lógicas*
+- *Título*. El título (ya dado) será *Diseño de lógica combinacional*
 - *Autor*. Esta sección debe contener tus datos personales
 - *Resumen*. (1 punto)
   - Describir brevemente el contenido del informe
